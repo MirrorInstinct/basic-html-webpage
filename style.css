@@ -94,3 +94,9 @@ body {
     margin: 30px 20px;
     font-size: 4em;
 }
+
+#meme {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
