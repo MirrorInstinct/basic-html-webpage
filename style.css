@@ -100,3 +100,61 @@ body {
     justify-content: center;
     margin-top: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+
+    .logo {
+        margin-bottom: 10px;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .nav-links {
+        justify-content: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    
+    .nav-links li {
+        margin-left: 0;
+    }
+
+    #info {
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    #projects {
+        margin: 0;
+        width: 90%;
+    }
+
+    #experience {
+        margin: 2px 0;
+        width: 90%;
+    }
+
+    #education {
+        margin: 2px 0;
+        width: 90%;
+    }
+    
+    #reviews {
+        margin: 2px 0;
+        padding: 20px;
+        width: 90%;
+    }
+    #welp {
+        margin: 0;
+        font-size: 10vw;
+        text-align: center;
+    }
+  }
